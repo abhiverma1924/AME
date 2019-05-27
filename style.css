@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+body, html{
+max-width: 100%;
+margin:0px;
+padding:0px;
+color: #FDFEFE;
+font-family: 'Vibur', cursive;
+}
+
+.wrapper{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.share{
+    width: 58px;
+    height: 58px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.share .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 25px;
+}
+
+.share.facebook{
+    background: #3b5998;
+}
+
+.share.twitter{
+    background: #55acee;
+}
+
+.share.reddit{
+    background: #ff4500;
+}
+
+.share.google{
+    background: #dd4b39;
+}
+
+.share.whatsapp{
+    background: #4dc247;
+}
+
+.share:hover{
+    width: 70px;
+}
+
+.container{
+            background: url('n2.jpeg') no-repeat center center fixed;
+            min-height: 650px;
+            min-width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            display: inline-block;
+            border-bottom-right-radius: 10%;
+            border-bottom-left-radius: 10%;  
+            background-color: black; 
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            }
+
+
+.navbar{
+    position: absolute;
+    margin-top:20px;
+}
+
+#logo{
+     width: 400px; 
+     position: absolute; 
+     top: 30%; 
+     right: 45%; 
+     left:30%;
+     align-items: center; 
+     margin-bottom: -5px;
+}
+
+
+.header .nav-item{
+ padding-left: 40px;
+ padding-right: 40px;
+ font-weight: 300px;
+ /*line-height: 10px;*/
+ margin-left: 10px;
+ font-size: 18px; 
+}
+
+
+.header .nav-item:hover{
+    /*border-top:  #E0FFFF solid;*/
+    border-bottom: #E0FFFF solid;
+
+    transition: .5s;
+
+
+}
+
+ li{
+    padding: 10px;
+}
+
+
+.about-main h1{
+     font-weight: bolder; 
+     font-size: 60px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    color: white;
+     width: 1320px;
+     height: 100px;
+}
+/*
+#about-image{
+    margin:0px;
+    padding: 0px;
+    overflow:hidden;
+    width: 1400px;
+    max-width: 100%;
+    height: 100vh;
+    margin-right: 0px;
+}
+*/
+
+
+.aviation-main{
+   margin:0;
+   padding: 0;
+   perspective: 1px;
+   height:100%;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   font-family:"luna";
+}
+.aviation {
+    box-sizing: border-box;
+    height: 200vh;
+    padding: 5vw 0 5px;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.aviation img{
+    width: 1400px;
+    max-width: 100%;
+    height: 500vh;
+    margin-right: 0px;
+}
+.navitem {
+ float: left;
+ /*text-decoration: none;*/
+ text-transform: uppercase;
+ padding: 35px;
+ font-size: 15px;
+ text-align: center;
+ min-height: 16px;
+
+}
+.carousel-inner img {
+      width: 100%;
+      height:100%;
+  }
+  
+.about-main{
+   margin:0;
+   padding: 0;
+   overflow-x: hidden;
+   font-family:"luna";
+}
+
+  .about-main{
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    display: block;
+    background-image: url(n1.jpg);
+    min-height: 100%;
+    min-width: 100%;
+    background-size: cover;
+  }
+  .about-main *{
+    color:#ffff;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 0px;
+    padding: 1em;
+  }
+.services h1{
+   margin:2px;
+   padding: 0;
+   overflow-x: hidden;
+   font-family: 'Vibur', cursive;
+   font-weight: bolder;
+   text-align: center;
+   line-height: 100px;
+}
+
+  .service-container{
+    margin: 2px;
+    padding: 0px;
+    background-color:  #E0FFFF;
+    
+  }
+  .services{
+    margin: auto;
+  }
+
+  .row{
+  margin-left: 40px;
+
+  padding-bottom: 10px;
+  }
+
+ .sponsors-image{
+  position: absolute;
+  min-width: 100%;
+  margin: auto;
+  padding: 0px;
+  max-height: 500px;
+  max-width: 1200px;
+
+ }
+ .card{
+    width: 18rem;
+    padding-left: 5px;
+ }
+
+.heading{
+    position: absolute;
+    color:  white;
+    text-align: center;
+    font-size: 65px;
+    font-family: 'luna';
+    padding-left: 450px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.sponsors-typewritter h1
+{    top: 370px;
+     left: 60px;
+     color: #E0FFFF;
+     right: 20%;
+     padding-top: 370px;
+     padding-left: 60px;
+     font-family: 'luna', cursive;
+}
+
+.sponsors-typewritter h3
+{
+     top: 500px;
+     color: #E0FFFF;
+     right: 20%;
+     padding-top: 10px;
+     padding-left: 60px;
+     font-family: 'luna';
+}
+
+.sponsors{
+  top: 2930px; 
+  font-family: 'luna', sans-serif;
+  height: 800px;
+  overflow:hidden;
+  position: absolute;
+  min-width: 100%;
+  margin-top: 0px;
+  padding: 0px;
+  max-height: 600px;
+  max-width: 1200px;
+
+
+}
+
+.sponsors-container {
+  /*background-image: url(product.jpg);*/
+  background-color: #01012B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 800px;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 0;
+}
+
+h1, h2 {
+  font-weight: 200;
+  margin: 3rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #aaa;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+
+@media(min-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media(max-width: 800px) {
+  .sponsers-container {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+ iframe{
+    width: 600px;
+    height:450px;
+ }
+ footer{
+    display: block;
+    margin:0px;
+    padding: 0px;
+
+}
+
+   @media screen and (max-width: 680px){
+
+.about-main::before{
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: block;
+    background-image: url(n1.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    margin:0px;
+    padding: 0px;
+    overflow:hidden;
+    /*width: 1400px;
+    max-width: 100%;
+    max-height: 1000px;
+    margin-right: 0px;*/
+
+}   
+#logo{
+      width: 250px;
+      position: absolute;
+      top: 45%; 
+      right: 40%;
+      left:22%;  
+      margin-bottom: -5px;
+ }
+
+ .row{
+  margin-left:40px;
+  padding-bottom: 10px;
+  }
+
+  .card{
+    width: 25rem;
+    padding-left: 5px;
+ }
+
+ .heading{
+    position: absolute;
+    color:  white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'luna';
+    padding-left: 8pxpx;
+    padding-top: 0px;
+    margin-top: 0px;
+   
+}
+
+}
+
+  @media screen and (max-width: 480px){
+
+
+.about-main h1{
+     font-weight: bolder; 
+     font-size: 60px;
+     padding-bottom: 0px;
+     padding-top: 0px;
+    color: white;
+     width: 800px;
+     height: 10px;
+}
+.about-main::before{
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: block;
+    background-image: url(n1.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    margin:0px;
+    padding: 0px;
+    overflow:hidden;
+    /*width: 1400px;
+    max-width: 100%;
+    max-height: 1000px;
+    margin-right: 0px;*/
+
+}   
+#logo{
+      width: 200px;
+      position: absolute;
+      top:40%; 
+      right: 35%;
+      left:25%; 
+      align-items:center; 
+      margin-bottom: -5px;
+ }
+
+ .row{
+  margin-left:40px;
+  padding-bottom: 10px;
+  }
+  .card{
+    width: 25rem;
+    padding-left: 5px;
+ }
+
+ .heading{
+    position: absolute;
+    color:  white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'luna';
+    padding-left: 8px;
+    padding-top: 0px;
+    margin-top: 0px;
+   
+}
+.sponsors-typewritter{
+     position: 100px 0px 10px 0px;   }
+
+    
+iframe{
+    width: 420px;
+    height:250px;
+ }
+.sponsors{
+  top: 8000px; 
+  font-family: 'luna', sans-serif;
+  height: 800px;
+  overflow:hidden;
+  position: absolute;
+  min-width: 100%;
+  margin-top: 0px;
+  padding: 0px;
+  max-height: 600px;
+  max-width: 1200px;
+
+
+}
+
+}
